@@ -1,0 +1,89 @@
+/* Place CSS styles here */
+img {
+    width: 100%;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .uglybutton {
+    color: orange;
+  }
+  
+  #container {
+    color: purple;
+  }
+  
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+  }
+  
+  .container-wrapper {
+    background-color: #dcdcdc;
+  }
+  
+  .button {
+    background-color: #3e299b;
+    color: #efefef;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #d3d136;
+  }
+  
+  .button:focus {
+    border: 1px solid #d3d136;
+  }
+  
+  .button-small {
+    font-size: 12px;
+  }
+  
+  /* HEADER STYLES */
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-nav {
+    display: flex;
+  }
+  
+  .main-nav .button {
+    margin-right: 8px;
+  }
+  
+  /* START HOMEPAGE STYLES */
+  
+  /* END HOMEPAGE STYLES */
+  
+  /* START ABOUT STYLES */
+  .about-wrapper {
+  
+  }
+  
+  .about-featured-items {
+    display: flex;
+  }
+  
+  .about-featured-item {
+    margin-right: 4px;
+    border: 1px solid black;
+  }
+  /* END ABOUT STYLES */
+  
+  .items {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+  }
